@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: poppins, sans-serif;
+    background-color: #40caf0;
+}
+
+header {
+    background-image: url('images/pro7.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #1ba1a8;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#hero {
+    background-image: url('images/pro0.jpg');
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+}
+
+#hero h1 {
+    font-size: 85px;
+    margin-top: 180px;
+    font-weight: 500;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #00137e;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about, #services, #contact {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#about h2, #services h2, #contact h2 {
+    font-size: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #065b75;
+    color: #fff;
+    padding: 10px 0;
+}
+/* Links */
+a {
+    color: #0077FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form styles (customize according to your form structure) */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #4330cf;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0077FF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0055CC;
+}
+
+/* Responsive Design (for smaller screens) */
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0;
+    }
+
+    #hero {
+        padding: 60px 0;
+    }
+
+    #about, #services, #contact {
+        margin: 10px 0;
+    }
+}
+/* Service styles */
+#services {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service {
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+    padding: 0 1rem;
+}
+
+.service img {
+    max-width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border-radius: 50%;
+}
+
+.service h3 {
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.service p {
+    font-size: 16px;
+}
+
+
